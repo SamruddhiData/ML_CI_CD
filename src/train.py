@@ -15,7 +15,7 @@ def train_model():
     model.fit(x,y)
 
     os.makedirs("models",exist_ok=True)
-    joblib.dump(model,"models/model.pk1")
+    joblib.dump(model,"models/model.pkl")
 
     print("Model trained and saved")
 
